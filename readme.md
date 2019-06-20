@@ -9,8 +9,7 @@
     }
 </style>
 </head>
-<body style="
-	>  
+<body style="background: #33363D; color: white;">  
 
 ### Webpack 4 starter kit
 

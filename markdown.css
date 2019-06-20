@@ -1,0 +1,9 @@
+
+body {
+    background-color:#33363D;
+	color: white;
+}
+img[src*="#thumbnail"] {
+    width:150px; 
+    height:100px; 
+ }

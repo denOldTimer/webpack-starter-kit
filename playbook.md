@@ -1,33 +1,38 @@
 
---- START VIDEO TUTORIAL DESIGNCOURSE ---
-Link to video: [https://www.youtube.com/watch?v=TzdEpgONurw]
+--- START VIDEO TUTORIAL DESIGNCOURSE ---  
 
-keywords [
-    bundler :
-    transpiling:
-    tree-shaking: elimination of dead code
-    minification:
-    asset management:
-    ..etc.
-]
+First of this kit is based  on the video from Gary Simon :thumbsup: 
 
--1 npm init -y
--2 npm i -D webpack webpack-cli  
--3 edit packack.json
+Check-out his website and youtube channel:  
+[![YouTube Video][youtube-image]][youtube-url]
+
+[youtube-url]: https://www.youtube.com/watch?v=TzdEpgONurw
+[youtube-image]: https://i.ytimg.com/vi/TzdEpgONurw/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBWQljJT3lWgtfByvmllQGkLhpK3w
+
+keywords  
+    - bundler  
+    - transpiling  
+    - tree-shaking  
+    - minification  
+    - asset management  
+
+- 1 npm init -y
+- 2 npm i -D webpack webpack-cli  
+- 3 edit packack.json
     - rm scripts : test
     - add build : webpack
--4 test run build
+- 4 test run build
     errors  : - no src folder
             : - no index.js file  (entry point)
--5 add src folder && index.js file
--6 test run again
+- 5 add src folder && index.js file
+- 6 test run again
     errors : none
     - dist folder was created
     - main.js was created (output file)
--7 Create src/bro.js (example file)
--8 Edit bro.js
--9 Edit index.js
--10 create index.html file
+- 7 Create src/bro.js (example file)
+- 8 Edit bro.js
+- 9 Edit index.js
+- 10 create index.html file
     - add html scaffolding
     - add script : index.js
     - run test in browser (F12) -> console

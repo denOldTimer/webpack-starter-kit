@@ -1,14 +1,3 @@
-<head>
-<style>
-    body{ 
-        background: #33363D;
-        color: white;
-        }
-    img[src*="#thumbnail"] {
-        width:25%;
-    }
-</style>
-</head>
 <body style="background: #33363D; color: white;">  
 
 ### Webpack 4 starter kit
@@ -16,7 +5,9 @@
 First of this kit is based  on the video from Gary Simon :thumbsup: 
 
 Check-out his website and youtube channel:  
-[![Coursetro.com ][coursetro-image]][coursetro-url]  [![YouTube Video][youtube-image]][youtube-url]
+<span style="with:25%;">[![Coursetro.com ][coursetro-image]][coursetro-url]  
+</span>
+[![YouTube Video][youtube-image]][youtube-url]
 
 
 
